@@ -128,7 +128,7 @@ namespace Minions_Banana_Rush
                         {
                             timer.Stop();
                             var rez = MessageBox.Show("Congrats, you won this level! Would you like to " +
-                                "preceed to the next one?", "Level done", MessageBoxButtons.OKCancel);
+                                "proceed to the next one?", "Level successfully done", MessageBoxButtons.OKCancel);
                             if (rez == DialogResult.OK)
                             {
                                 DialogResult = DialogResult.OK;
