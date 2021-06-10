@@ -57,7 +57,7 @@ namespace Minions_Banana_Rush
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
-            //Process.Start("http://www.facebook.com");
+            Process.Start("https://github.com/aDimkoski/Minions-Banana-Rush");
         }
     }
 }
